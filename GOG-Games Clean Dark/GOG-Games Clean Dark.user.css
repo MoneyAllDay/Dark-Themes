@@ -1,0 +1,138 @@
+/* ==UserStyle==
+@name           GOG-Games Clean Dark (yarr)
+@namespace      https://github.com/MoneyAllDay/Dark-Themes
+@homepageURL    https://github.com/MoneyAllDay/Dark-Themes
+@version        1.0.0
+@description    Sail the high seas without blinding yourself.
+@author         MoneyAllDay (https://github.com/MoneyAllDay)
+==/UserStyle== */
+@-moz-document domain("gog-games.com") {
+
+    :root {
+        --backgroundcolor: #1a1a1a;
+        --titletextcolor: #e4e4e4;
+        --textcolor: #d9d9d9;
+        --boxbackgroundcolor: #292929;
+    }
+
+    /*Frontpage*/
+    body {
+        color: var(--titletextcolor);
+        background-color: var(--backgroundcolor);
+    }
+
+    #game-details-bg {
+        background: var(--backgroundcolor);
+    }
+
+    .game-blocks .block {
+        background: var(--boxbackgroundcolor);
+        box-shadow: 0 0 3px rgba(156, 156, 156, .35);
+    }
+
+    #game-details .container .items-group .game-blocks .block .info .clip,
+    #game-details .container .items-group .game-blocks .block .info .open-all,
+    #game-details-bg .container .items-group .game-blocks .block .info .clip,
+    #game-details-bg .container .items-group .game-blocks .block .info .open-all,
+    .game-blocks .block .info #game-details .container .items-group .clip,
+    .game-blocks .block .info #game-details .container .items-group .open-all,
+    .game-blocks .block .info #game-details-bg .container .items-group .clip,
+    .game-blocks .block .info #game-details-bg .container .items-group .open-all,
+    .game-blocks .block .info .title {
+        color: var(--textcolor);
+    }
+
+    .game-blocks .block .date {
+        border: 1px solid #6f6f6f;
+        color: #fff;
+    }
+
+    #game-details .container > h1,
+    #game-details-bg .container > h1 {
+        color: #000;
+    }
+
+    #game-details .container .items-group .clip,
+    #game-details .container .items-group .open-all,
+    #game-details .container .items-group .title,
+    #game-details-bg .container .items-group .clip,
+    #game-details-bg .container .items-group .open-all,
+    #game-details-bg .container .items-group .title {
+        color: #202020;
+    }
+
+    #game-details .container .items-group .item .filename,
+    #game-details-bg .container .items-group .item .filename {
+        color: #202020;
+    }
+
+    #game-details .container .items-group .item .filesize,
+    #game-details-bg .container .items-group .item .filesize {
+        color: rgba(0, 0, 0, 0.78);
+    }
+
+    .tag.new {
+        background: #048600;
+    }
+
+    .tag.updated {
+        background: #0456d5;
+    }
+
+    .tag.indev {
+        background: #a07145;
+    }
+
+    /* Popup */
+    #game-details .container::after,
+    #game-details-bg .container::after {
+        background-color: transparent;
+    }
+
+    /* Popup fix image and background opacity wrong*/
+    #game-details.fadein .container::before,
+    .fadein#game-details-bg .container::before {
+        opacity: 0;
+    }
+
+    /*Donations, Faq*/
+    .modal .modal__inner {
+        background: var(--boxbackgroundcolor);
+    }
+
+    /*Queue*/
+    table {
+        background: var(--boxbackgroundcolor);
+        box-shadow: 0 0 3px rgba(156, 156, 156, .35);
+    }
+
+    html.bgvzauos.idc0_321 body div.container.queue table tbody tr td a {
+        color: #8058d0;
+    }
+
+    html.bgvzauos.idc0_321 body div.container.queue table tbody tr td a:hover {
+        color: #9f76f9;
+    }
+
+    /*Search results*/
+    #navbar .container .dropdown button:not([href]):not([tabindex]),
+    #navbar .container .dropdown:not([href]):not([tabindex]),
+    .btn-link:not([href]):not([tabindex]),
+    a:not([href]):not([tabindex]) {
+        color: #4c4c4c;
+    }
+
+    /* Buttons */
+    .btn,
+    .view-changer button {
+        color: var(--textcolor);
+        background: linear-gradient(to bottom, var(--boxbackgroundcolor), var(--boxbackgroundcolor));
+    }
+
+    /*Game page*/
+    .items-group {
+        color: var(--backgroundcolor);
+        box-shadow: 0px 0px 15px #6d6d6d82;
+	    background-color: #d9d9d9bf;
+    }
+}
