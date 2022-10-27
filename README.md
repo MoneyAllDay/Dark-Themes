@@ -1,6 +1,6 @@
 <div align="center">
-  <h1><a href="https://userstyles.world/style/7061/gog-games-clean-dark">
-    <img src="https://userstyles.world/favicon.ico" alt="Install Stylus">GOG-Games Clean Dark</a></h1>
+  <h2><a href="https://userstyles.world/style/7061/gog-games-clean-dark">
+    <img src="https://userstyles.world/favicon.ico" alt="Install Stylus">GOG-Games Clean Dark</a></h2>
 
   <a href="https://add0n.com/stylus.html">
     <img src="https://cdn.add0n.com/icons/stylus16.png" alt="Install Stylus"></a>   
