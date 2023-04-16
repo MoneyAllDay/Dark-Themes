@@ -2,13 +2,13 @@
 @name           GOG-Games Clean Dark (yarr)
 @namespace      https://github.com/MoneyAllDay/Dark-Themes
 @homepageURL    https://github.com/MoneyAllDay/Dark-Themes
-@version        1.0.0
+@version        1.0.1
 @updateURL      https://github.com/MoneyAllDay/Dark-Themes/raw/main/GOG-Games%20Clean%20Dark/GOG-Games%20Clean%20Dark.user.css
 @supportURL     https://github.com/MoneyAllDay/Dark-Themes/issues
 @description    Sail the high seas without blinding yourself.
 @author         MoneyAllDay (https://github.com/MoneyAllDay)
 ==/UserStyle== */
-@-moz-document domain("gog-games.com") {
+@-moz-document domain("gog-games.com"), domain("gog-games.to") {
 
     :root {
         --backgroundcolor: #1a1a1a;
