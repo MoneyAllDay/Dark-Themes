@@ -2,7 +2,7 @@
 @name           GOG-Games Clean Dark (yarr)
 @namespace      https://github.com/MoneyAllDay/Dark-Themes
 @homepageURL    https://github.com/MoneyAllDay/Dark-Themes
-@version        1.0.2
+@version        1.0.3
 @updateURL      https://github.com/MoneyAllDay/Dark-Themes/raw/main/GOG-Games%20Clean%20Dark/GOG-Games%20Clean%20Dark.user.css
 @supportURL     https://github.com/MoneyAllDay/Dark-Themes/issues
 @description    Sail the high seas without blinding yourself.
@@ -139,6 +139,11 @@
     }
 
     #game-details #navbar .container .dropdown .info button, #game-details #navbar .container .info .dropdown, #game-details #navbar .container .info .dropdown button, #game-details .container .info .btn-link, #game-details .container .info a, #game-details-bg #navbar .container .dropdown .info button, #game-details-bg #navbar .container .info .dropdown, #game-details-bg #navbar .container .info .dropdown button, #game-details-bg .container .info .btn-link, #game-details-bg .container .info a, #navbar #game-details .container .dropdown .info button, #navbar #game-details .container .info .dropdown, #navbar #game-details .container .info .dropdown button, #navbar #game-details-bg .container .dropdown .info button, #navbar #game-details-bg .container .info .dropdown, #navbar #game-details-bg .container .info .dropdown button {
+        color: var(--boxbackgroundcolor);
+    }
+
+    div.changelog.open {
+
         color: var(--boxbackgroundcolor);
     }
 }
